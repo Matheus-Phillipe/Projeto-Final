@@ -1,30 +1,23 @@
 # Projeto-Final
 Projeto final do curso Ciencia de Dados baseado em credit scoring
 
-# Aplicação para separar os clientes utilizando clusters
-
-Esse projeto consiste em combinar tecnicas e habilidades envolvendo o Streamlit juntamente com github e um site de hospedagem para manter o app em LIVE. O host utilizado foi o Render.
+Esse projeto consiste em combinar tecnicas e habilidades envolvendo o Streamlit.
 
 ## Descrição do projeto
 
-O Projeto tem como objetivo aplicar as tecnicas aprendidas no curso Cientista de Dados pela EBAC e utilizar uma combinação de aplicação no Streamlit, repositórios do GitHub e um serviço de hosting (Servidor) para manter essa aplicação ativa.
+O Projeto tem como objetivo aplicar as tecnicas aprendidas no curso Cientista de Dados pela EBAC e utilizar uma combinação de aplicação no Streamlit, repositórios do GitHub.
 
 ## Descrição da aplicação
 
-A base trata de registros de 12.330 sessões de acesso a páginas, cada sessão sendo de um único usuário em um período de 12 meses, para posteriormente estudarmos a relação entre o design da página e o perfil do cliente - "Será que clientes com comportamento de navegação diferentes possuem propensão a compra diferente?"
-
-Nosso objetivo agora é agrupar as sessões de acesso ao portal considerando o comportamento de acesso e informações da data, como a proximidade a uma data especial, fim de semana e o mês.
-
-### Atenção: Dependendo do tamanho da base, os graficos podem demorar aproximadamente 60 minutos para serem gerados.
+A aplicaçao realiza a execucao de um pipeline, seguindo o modelo lightGBM de uma base de dados de credit scoring.
+Dentro da aplicaçao foi separado 50000 amostras para otimizar a velocidade de processamento da aplicaçao.
+O objetivo final é baixar o predict dos dados ja no formato de excel.
 
 
 ## Utilização
 
-Para utilizar a aplicação, basta acessar o link ativo logo abaixo, selecionar os dados a serem analisados. A aplicação, após inserir os dados, criará um agrupamento de 3 e 4 grupos utilizando o metodo de clusterização. 
-
-### Link para a aplicação do app (LIVE)
-
-Link ainda não disponivel.
+Para utilizar a aplicaçao, basta baixar em seu computador, navegar pelo terminal ate a pasta que foi salvo a aplicaçao, e digitar o seguinte comando:
+"streamlit run <nomesalvo>.py". O nome originalmente é app_pycaret.py.
 
 ### Dependencias
 
@@ -35,11 +28,10 @@ Link ainda não disponivel.
 
 ### Executando o projeto
 
-* Acessar o link (live) ou fazer o download da aplicação no seu dispositivo.
-* OBS: Caso optar pelo download será necessario navegar até o diretorio que o arquivo foi baixado e executar o comando streamlit run "app2.py" ou o nome do arquivo caso renomeado.
-* Selecionar o arquivo contendo os dados de analise de telemarketing
+* Após rodar a aplicaçao "streamlit run <nome_salvo>.py"
+* Selecionar o arquivo contendo os dados de credit scoring
 * Nesse ponto, os dados serão exibidos, com a possibilidade de interação selecionando filtros e tipos de exibição dos dados.
-* Passo a passo em tópicos (bullet points)
+* Download dos dados preditos.
 
 ## Ajuda
 
