@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/14c206e6-dece-4004-95b2-d6cbcc7329db
 # Projeto-Final
 Projeto final do curso Ciencia de Dados baseado em credit scoring
 
@@ -18,6 +20,12 @@ O objetivo final é baixar o predict dos dados ja no formato de excel.
 
 Para utilizar a aplicaçao, basta baixar em seu computador, navegar pelo terminal ate a pasta que foi salvo a aplicaçao, e digitar o seguinte comando:
 "streamlit run <nomesalvo>.py". O nome originalmente é app_pycaret.py.
+
+
+
+https://github.com/user-attachments/assets/bcf41d9b-bff8-4f0a-9ea6-f926727c188d
+
+
 
 ### Dependencias
 
