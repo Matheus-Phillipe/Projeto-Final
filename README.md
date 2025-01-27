@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/14c206e6-dece-4004-95b2-d6cbcc7329db
 # Projeto-Final
 Projeto final do curso Ciencia de Dados baseado em credit scoring
 
